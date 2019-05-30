@@ -4,17 +4,11 @@ zipset = {32009,32011,32043, 32063, 32065, 32068, 32073, 32202, 32204, 32205, 32
 zipinput = int(input("Zip Code: "))
 zipresult = (zipinput in zipset)
 
-print(zipresult)
 
-
-
-
-
-
-#print result
-#print("You entered ", zipinput)
-#print("Allowed Zip?: ")
-#print (zipresult)
+if zipresult == True:
+	print("FOUND\n\r")
+else:
+	print("Not in list\n\r")
 
 
 
